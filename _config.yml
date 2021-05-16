@@ -4,6 +4,7 @@ plugins:
   - jekyll-archives # Sorry, not GitHub pages friendly!
   - jekyll-sitemap
   - jekyll-paginate-v2
+  - jekyll-analytics
 
 exclude:
   - "/vendor/"
@@ -51,7 +52,10 @@ jekyll-archives:
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
-google_analytics: "UA-150883191-1"
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-150883191-1          
+#google_analytics: ""
 
 # Category descriptions (for archive pages)
 descriptions:
