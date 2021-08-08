@@ -376,7 +376,7 @@ func makeRequest(ctx context.Context) {
         res.Body.Close()
 }
 .....
-{% raw %}
+{% endraw %}
 
 ### Reference Site  
 [https://opentelemetry.io/docs/collector/configuration/](https://opentelemetry.io/docs/collector/configuration/)
