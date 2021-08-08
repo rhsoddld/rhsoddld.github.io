@@ -93,7 +93,7 @@ Detail below links
 ### Extensions
 Extensions are available primarily for tasks that do not involve processing telemetry data. Examples of extensions include health monitoring, service discovery, and data forwarding. Extensions are optional.  
 
-Detail below links 
+Detail below links  
 [https://github.com/open-telemetry/opentelemetry-collector/blob/main/extension/README.md](https://github.com/open-telemetry/opentelemetry-collector/blob/main/extension/README.md)
 
 ### Service 
