@@ -33,41 +33,41 @@ Basics
 - Exporters
 
 
-Sample config  
+Sample config   
 {% raw %}
-receivers:
-  otlp:
-    protocols:
-      grpc:
-      http:
+	receivers:
+	otlp:
+		protocols:
+		grpc:
+		http:
 
-processors:
-  batch:
+	processors:
+	batch:
 
-exporters:
-  otlp:
-    endpoint: otelcol:4317
+	exporters:
+	otlp:
+		endpoint: otelcol:4317
 
-extensions:
-  health_check:
-  pprof:
-  zpages:
+	extensions:
+	health_check:
+	pprof:
+	zpages:
 
-service:
-  extensions: [health_check,pprof,zpages]
-  pipelines:
-    traces:
-      receivers: [otlp]
-      processors: [batch]
-      exporters: [otlp]
-    metrics:
-      receivers: [otlp]
-      processors: [batch]
-      exporters: [otlp]
-    logs:
-      receivers: [otlp]
-      processors: [batch]
-      exporters: [otlp]
+	service:
+	extensions: [health_check,pprof,zpages]
+	pipelines:
+		traces:
+		receivers: [otlp]
+		processors: [batch]
+		exporters: [otlp]
+		metrics:
+		receivers: [otlp]
+		processors: [batch]
+		exporters: [otlp]
+		logs:
+		receivers: [otlp]
+		processors: [batch]
+		exporters: [otlp]
 {% endraw %}
 
 
@@ -102,15 +102,15 @@ The service section is used to configure what components are enabled in the Coll
 Example  
 
 {% raw %}
-service:
-pipelines:
-	metrics:
-	receivers: [opencensus, prometheus]
-	exporters: [opencensus, prometheus]
-	traces:
-	receivers: [opencensus, jaeger]
-	processors: [batch]
-	exporters: [opencensus, zipkin]
+	service:
+	pipelines:
+		metrics:
+		receivers: [opencensus, prometheus]
+		exporters: [opencensus, prometheus]
+		traces:
+		receivers: [opencensus, jaeger]
+		processors: [batch]
+		exporters: [opencensus, zipkin]
 {% endraw %}
 
 # Check demo config 
