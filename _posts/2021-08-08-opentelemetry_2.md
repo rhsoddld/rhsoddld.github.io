@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[OpenTelemetry] Configuration"
-date: 2021-08-08T00:35:55-05:00
+date: 2021-08-08T00:35:55-06:00
 author: Lee
 categories: OpenTelemetry
 ---
