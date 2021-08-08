@@ -216,16 +216,16 @@ Access to web pages
 
 
 <p>
-<img src="/assets/opentelemetry/20210808/Docker_desktop.png">
+<img src="/assets/opentelemetry/20210808/docker_desktop.png">
 </p>
 <p>
-<img src="/assets/opentelemetry/20210808/Jaeger.png">
+<img src="/assets/opentelemetry/20210808/jaeger.png">
 </p>
 <p>
-<img src="/assets/opentelemetry/20210808/Prometheus.png">
+<img src="/assets/opentelemetry/20210808/prometheus.png">
 </p>
 <p>
-<img src="/assets/opentelemetry/20210808/Zipkin.png">
+<img src="/assets/opentelemetry/20210808/zipkin.png">
 </p>
 
 
