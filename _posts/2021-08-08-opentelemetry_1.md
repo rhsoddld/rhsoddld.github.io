@@ -230,17 +230,20 @@ Access to web pages
 
 
 ## Components
-<p>Proto  
+Proto  
+<p>  
 Language independent interface types. Defined per data source for instrumentation libraries and the collector as well as for common aspects and resources.
 </p>
 [https://github.com/open-telemetry/opentelemetry-proto](https://github.com/open-telemetry/opentelemetry-proto)
-<p>Specification  
-- API: Used to generate telemetry data. Defined per data source as well as for other aspects including baggage and propagators.  
-- SDK: Implementation of the API with processing and exporting capabilities. Defined per data source as well as for other aspects including resources and configuration.  
-- Data: Defines semantic conventions to provide vendor-agnostic implementations as well as the OpenTelemetry protocol (OTLP).
-</p>
+
+Specification  
+<p>- API: Used to generate telemetry data. Defined per data source as well as for other aspects including baggage and propagators.</p> 
+<p>- SDK: Implementation of the API with processing and exporting capabilities. Defined per data source as well as for other aspects including resources and configuration.</p>
+<p>- Data: Defines semantic conventions to provide vendor-agnostic implementations as well as the OpenTelemetry protocol (OTLP).</p>
 [https://github.com/open-telemetry/opentelemetry-specification](https://github.com/open-telemetry/opentelemetry-specification)
-<p>Collector    
+
+Collector
+<p>    
 The OpenTelemetry Collector offers a vendor-agnostic implementation on how to receive, process, and export telemetry data. It removes the need to run, operate, and maintain multiple agents/collectors in order to support open-source observability data formats (e.g. Jaeger, Prometheus, etc.) sending to one or more open-source or commercial back-ends. The Collector is the default location instrumentation libraries export their telemetry data.  
 </p>
 [https://opentelemetry.io/docs/concepts/data-collection/](https://opentelemetry.io/docs/concepts/data-collection/)
