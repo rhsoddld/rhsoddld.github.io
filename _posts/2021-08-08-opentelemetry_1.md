@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "[OpenTelemerty] Hello world"
+title: "[OpenTelemetry] Hello world"
 date: 2021-08-08T00:35:55-05:00
 author: Lee
-categories: OpenTelemerty
+categories: OpenTelemetry
 ---
 
 Goal  
-1. Install OpenTelemety  
+1. Install OpenTelemetry  
 2. Hello World  
 
 
